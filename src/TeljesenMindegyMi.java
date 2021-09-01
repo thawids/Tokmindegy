@@ -14,6 +14,7 @@ public class TeljesenMindegyMi {
         }
         return min;
     }
+
     public static int findMaximum(int[] array) {
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
@@ -22,5 +23,15 @@ public class TeljesenMindegyMi {
             }
         }
         return max;
-}
     }
+
+    public static int findOdd(int[] array) {
+        int odd = 0;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] % 2 != 0) {
+                odd++;
+            }
+        }
+        return odd;
+    }
+}
