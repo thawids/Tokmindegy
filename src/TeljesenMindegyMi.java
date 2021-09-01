@@ -23,4 +23,6 @@ public class TeljesenMindegyMi {
         }
         return max;
 }
+
+
     }
